@@ -9,6 +9,11 @@
       <td valign="top"><img src="./wordmark.svg" width="490" alt="SAKETH — 3D ASCII Wordmark" /></td>
     </tr>
   </table>
+  <table>
+    <tr>
+      <td valign="top"><img src="./info-card.svg" width="490" /></td>
+    </tr>
+  </table>
 
   <br><br>
 
