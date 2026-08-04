@@ -112,19 +112,23 @@ text {{
   <text x="20" y="160" fill="#8b949e" font-size="12">
     <tspan fill="#3fb950">saketh@github</tspan>:<tspan fill="#58a6ff">~</tspan>$ neofetch
   </text>
-  
-  <text x="20" y="185" fill="#c9d1d9" font-size="11">
-    <tspan fill="#58a6ff">OS</tspan>: macOS / Arch Linux
+
+
+
+  <text x="20" y="180" fill="#c9d1d9" font-size="11">
+    <tspan fill="#58a6ff">OS</tspan>: macOS / Winodows / Linux
   </text>
-  <text x="20" y="205" fill="#c9d1d9" font-size="11">
-    <tspan fill="#58a6ff">Focus</tspan>: Machine Learning &amp; Computer Vision
+  <text x="20" y="198" fill="#c9d1d9" font-size="11">
+    <tspan fill="#58a6ff">Focus</tspan>: Machine Learning &amp; Deep Learning &amp; Cybersecurity
   </text>
-  <text x="20" y="225" fill="#c9d1d9" font-size="11">
-    <tspan fill="#58a6ff">Stack</tspan>: Python, PyTorch, C++, CUDA
+  <text x="20" y="216" fill="#c9d1d9" font-size="11">
+    <tspan fill="#58a6ff">Stack</tspan>: Python, PyTorch, CNNs, BERT, Full-Stack
   </text>
-  <text x="20" y="245" fill="#c9d1d9" font-size="11">
-    <tspan fill="#58a6ff">Status</tspan>: Building intelligent systems...
+  <text x="20" y="252" fill="#c9d1d9" font-size="11">
+    <tspan fill="#58a6ff">Status</tspan>: Building intelligent systems &amp; NLP projects &amp; Cyber Projects
   </text>
+
+
 
   <!-- Active Prompt Line with Blinking Cursor -->
   <text x="20" y="285" fill="#8b949e" font-size="12">
