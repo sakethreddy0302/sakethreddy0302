@@ -7,7 +7,6 @@
     <tr>
       <td valign="top"><img src="./ascii.svg" width="370" alt="Saketh Reddy — ASCII portrait" /></td>
       <td valign="top"><img src="./wordmark.svg?v=3" width="490" alt="SAKETH — 3D ASCII Wordmark" /></td>
-      
     </tr>
   </table>
 
