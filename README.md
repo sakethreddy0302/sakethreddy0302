@@ -1,43 +1,39 @@
 <div align="center">
 
-<!-- hero: monochrome ASCII portrait (types in) beside the extruded 3d ascii
-     wordmark (wipes in left-to-right, then rocks on its vertical axis).
-     widths are picked so both panels land at the same height.
-     portrait: python scripts/prep_photo.py <photo> && python scripts/make_ascii_svg.py
-     wordmark: python scripts/make_wordmark_svg.py --mode rock
-     how the wordmark is built: docs/3d-ascii-wordmark.md -->
+  <!-- Terminal Top Row: ASCII Portrait & Neofetch Info Card -->
+  <h3><code>saketh@github ~ $ whoami</code></h3>
 
-<h3><code>avi@github ~ $ whoami</code></h3>
+  <table>
+    <tr>
+      <td valign="top"><img src="./ascii.svg" width="370" alt="Saketh Reddy — ASCII portrait" /></td>
+      <td valign="top"><img src="./info-card.svg" width="490" alt="Saketh Reddy — Neofetch Info Card" /></td>
+    </tr>
+  </table>
 
-<table>
-<tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="Avi Vashishta — ASCII portrait" /></td>
-<td valign="top"><img src="./wordmark.svg" width="490" alt="AVI — 3D ASCII wordmark" /></td>
-</tr>
-</table>
+  <br><br>
 
-<br>
-<br>
+  <!-- Animated Contribution Graph -->
+  <h3><code>saketh@github ~ $ ./contributions.sh</code></h3>
 
-<!-- animated contribution graph: real data, boxes reveal cell by cell
-     (regenerated daily by .github/workflows/update-profile-art.yml) -->
+  <img src="./contrib-heatmap.svg" width="860" alt="Saketh's GitHub contribution graph — auto-refreshed daily" />
 
-<h3><code>avi@github ~ $ ./contributions.sh</code></h3>
+  <br><br>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Avi's GitHub contribution graph — auto-refreshed daily" />
+  <!-- Links & Social Badges -->
+  <h3><code>saketh@github ~ $ ./links.sh</code></h3>
 
-<br>
-<br>
+  <p><b>AI/ML Engineer · Fullstack Developer · Electronics & Computer Engineering</b></p>
 
-<h3><code>avi@github ~ $ ./links.sh</code></h3>
+  <a href="https://github.com/sakethreddy0302">
+    <img src="https://img.shields.io/badge/GitHub-sakethreddy0302-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/sakethreddy0302">
+    <img src="https://img.shields.io/badge/LinkedIn-sakethreddy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:sakethreddy0302@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 
-<p><b>Fullstack Developer · AI Builder · Instructor</b></p>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-avivashishta.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://www.avivashishta.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-avivashishta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/avivashishta)
-[![Instagram](https://img.shields.io/badge/Instagram-avi__vashishta29-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/avi_vashishta29)
-[![Live Terminal](https://img.shields.io/badge/⚡_Live_Terminal-avivashishta29.github.io-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://avivashishta29.github.io)
-
-<br>
+  <br>
 
 </div>
