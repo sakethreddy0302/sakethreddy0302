@@ -10,11 +10,6 @@
       
     </tr>
   </table>
-  <table>
-    <tr>
-      <td valign="top"><img src="./info-card.svg" width="490" /></td>
-    </tr>
-  </table>
 
   <br><br>
 
