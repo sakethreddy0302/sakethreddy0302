@@ -124,7 +124,7 @@ text {{
   <text x="20" y="216" fill="#c9d1d9" font-size="11">
     <tspan fill="#58a6ff">Stack</tspan>: Python, PyTorch, CNNs, BERT, Full-Stack
   </text>
-  <text x="20" y="252" fill="#c9d1d9" font-size="11">
+  <text x="20" y="232" fill="#c9d1d9" font-size="11">
     <tspan fill="#58a6ff">Status</tspan>: Building intelligent systems &amp; NLP projects &amp; Cyber Projects
   </text>
 
