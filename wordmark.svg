@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" width="100%" height="100%">
+  <style>
+    .bg { fill: #0d1117; rx: 8px; }
+    .ascii-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      font-weight: bold;
+      fill: #58a6ff;
+      filter: drop-shadow(2px 2px 0px #1f6feb);
+    }
+    .subtext {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      fill: #8b949e;
+    }
+  </style>
+  <rect width="100%" height="100%" class="bg" />
+  <text class="ascii-text">
+    <tspan x="20" y="65">&#160;&#160;____&#160;&#160;&#160;&#160;_&#160;&#160;&#160;&#160;_&#160;&#160;_____&#160;_____&#160;_____&#160;_&#160;&#160;&#160;_&#160;</tspan><tspan x="20" y="87">&#160;/&#160;___|&#160;&#160;/&#160;\&#160;&#160;|&#160;|/&#160;/&#160;____|_&#160;&#160;&#160;_|&#160;||&#160;|&#160;|&#160;|</tspan><tspan x="20" y="109">&#160;\___&#160;\&#160;/&#160;_&#160;\&#160;|&#160;'&#160;/|&#160;&#160;_|&#160;&#160;&#160;|&#160;|&#160;|&#160;||&#160;|_|&#160;|</tspan><tspan x="20" y="131">&#160;&#160;___)&#160;/&#160;___&#160;\|&#160;.&#160;\|&#160;|___&#160;&#160;|&#160;|&#160;|__&#160;&#160;&#160;_|</tspan><tspan x="20" y="153">&#160;|____/_/&#160;&#160;&#160;\_\_|\_\_____|&#160;|_|&#160;&#160;&#160;&#160;|_|&#160;&#160;</tspan>
+  </text>
+  <text x="20" y="175" class="subtext">software engineer • machine learning • developer</text>
+</svg>
