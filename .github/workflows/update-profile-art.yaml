@@ -1,0 +1,38 @@
+name: Update profile art
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # Runs automatically every day at 06:17 UTC
+  workflow_dispatch: {}     # Adds a manual "Run workflow" button in GitHub
+  push:
+    branches: [main]       # Runs whenever you push new code to main
+
+permissions:
+  contents: write          # Gives the bot permission to save and push changes to your repo
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      # Step A: Download your repository code onto the runner
+      - uses: actions/checkout@v4
+
+      # Step B: Set up Python 3.11 on the runner
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Step C: Install requests and beautifulsoup4
+      - run: pip install requests==2.32.3 beautifulsoup4==4.12.3
+
+      # Step D: Download latest contribution data
+      - run: python scripts/fetch_contributions.py
+
+      # Step E: Re-render the heatmap SVG
+      - run: python scripts/render_heatmap_svg.py
+
+      # Step F: Commit and push changes back to your GitHub repository
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution graph [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"

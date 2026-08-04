@@ -1,0 +1,42 @@
+# scripts/make_info_card.py
+def make_card(output_path="info-card.svg"):
+    svg = """<svg xmlns="http://www.w3.org/2000/svg" width="490" height="500" viewBox="0 0 490 500">
+  <style>
+    .bg { fill: #0d1117; rx: 8px; }
+    .title { font-family: monospace; font-size: 14px; fill: #58a6ff; font-weight: bold; }
+    .label { font-family: monospace; font-size: 12px; fill: #79c0ff; font-weight: bold; }
+    .value { font-family: monospace; font-size: 12px; fill: #c9d1d9; }
+    .line { animation: fadeIn 0.5s ease-in-out forwards; opacity: 0; }
+    @keyframes fadeIn { to { opacity: 1; } }
+  </style>
+  <rect class="bg" width="100%" height="100%"/>
+  <text x="20" y="35" class="title">saketh@github ~ $ neofetch</text>
+  <path d="M 20 45 L 470 45" stroke="#30363d" stroke-width="1"/>
+  
+  <g class="line" style="animation-delay: 0.2s">
+    <text x="20" y="80" class="label">OS:</text>
+    <text x="120" y="80" class="value">macOS / Linux</text>
+  </g>
+  <g class="line" style="animation-delay: 0.4s">
+    <text x="20" y="110" class="label">Role:</text>
+    <text x="120" y="110" class="value">ECE Graduate | AI/ML &amp; Backend</text>
+  </g>
+  <g class="line" style="animation-delay: 0.6s">
+    <text x="20" y="140" class="label">Languages:</text>
+    <text x="120" y="140" class="value">Python, C/C++, JavaScript, SQL</text>
+  </g>
+  <g class="line" style="animation-delay: 0.8s">
+    <text x="20" y="170" class="label">Frameworks:</text>
+    <text x="120" y="170" class="value">PyTorch, TensorFlow, Node.js</text>
+  </g>
+  <g class="line" style="animation-delay: 1.0s">
+    <text x="20" y="200" class="label">Security:</text>
+    <text x="120" y="200" class="value">Packet Analysis, DPI, Network IDS</text>
+  </g>
+</svg>"""
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(svg)
+    print(f"Info card written to {output_path}")
+
+if __name__ == "__main__":
+    make_card()
